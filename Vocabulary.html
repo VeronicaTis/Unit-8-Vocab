@@ -26,46 +26,76 @@
               <td data-label="Data Cells">Contains content within columns or rows, By default, displays text as unformatted text and is aligned to teh left within the cell, Marked using the td element</td>
             </tr>
             <tr>
+                <th>td</th>
                 <td data-label="td">Used to define the data within a cell</td>
             </tr>
             <tr>
+                <th>table</th>
+                <td data-label="table">An HTML structure for creating rows and columns on a Web page</td>
+            </tr>
+            <tr>
+                <th>Web Table</th>
                 <td data-label="Web table">A subset of the HTML tables on the Web contains relational data which can be useful for various applications.</td>
             </tr>
             <tr>
-                <td data-label="rows"></td>
+                <th>Rows</th>
+                <td data-label="rows">a horizontal group of values within a table</td>
             </tr>
             <tr>
-                <td data-label="columns"></td>
+                <th>Columns</th>
+                <td data-label="columns">a vertical group of values within a table</td>
             </tr>
             <tr>
-                <td data-label="table cells"></td>
+                <th>Table Cells</th>
+                <td data-label="table cells"> is one grouping within a chart table used for storing information or data</td>
             </tr>
             <tr>
-                <td data-label="header cells"></td>
+                <th>Header Cell</th>
+                <td data-label="header cells"> contain the information that is critical to understanding the raw data in a table. ... The <th> element needs to be used for header cells so that they are distinguishable from and can be associated with the correct data </td>
             </tr>
             <tr>
-                <td data-label="th"></td>
+                <th>th</th>
+                <td data-label="th">is the elemnet used to creat a header cell</td>
             </tr>
             <tr>
+                <th>CSS border property</th>
                 <td data-label="CSS border property">is used to add borders to any part of a web table</td>
             </tr>
             <tr>
+                <th>collapsed borders model</th>
                 <td data-label="collapsed borders model">Borders from adjacent elements are merged together to form a single border, border are joined to combine heir features, combining adjacent borders with different width, styles, or colors is complicated</td>
             </tr>
             <tr>
+                <th>Spanning cells</th>
                 <td data-label="Spanning cells">Single cell that occupies more than one cell row and/or column, created by adding rowspan and/or colspan attributes to td or th elements, spanning starts in the cell with rowspan or colspan attributes and covers the cells in the right and below the initial cell</td>
             </tr>
             <tr>
-                <td data-label="visual viewport"></td>
+                <th>visual viewport</th>
+                <td data-label="visual viewport"> the visual portion of a screen excluding on-screen keyboards, areas outside of a pinch-zoom area, or any other on-screen artifact that doesn't scale with the dimensions of a page</td>
             </tr>
             <tr>
-                <td data-label="data attribute"></td>
+                <th>data attribute</th>
+                <td data-label="data attribute">a characteristic of data that sets it apart from other data</td>
             </tr>
             <tr>
-                <td data-label="block elements"></td>
+                <th>block element</th>
+                <td data-label="block elements"> is any element that starts a new line, like a paragraph, and uses the full width of the page or container</td>
             </tr>
             <tr>
-                <td data-label="block element"></td>
+                <th>two-column layout</th>
+                <td data-label="two-column layout"> include a left column with navigation links, and a right column for body text</td>
+            </tr>
+            <tr>
+                <th>float elements</th>
+                <td data-label="float elements"> places an element on the left or right side of its container, allowing text and inline elements to wrap around it</td>
+            </tr>
+            <tr>
+                <th>flexboxes</th>
+                <td data-label="flexboxes">Every HTML element that's a direct child of a flex container is an “item”. Flex items can be manipulated individually, but for the most part, it's up to the container to determine their layout</td>
+            </tr>
+            <tr>
+                <th>size</th>
+                <td data-label="size">the number of tables rows, and number of cells within rows</td>
             </tr>
         </table>
 
@@ -76,8 +106,120 @@
                 <dd>display:table;</dd>
             </div>
             <div>
-                <dt>Data Cells</dt>
-                <dd>td</dd>
+                <dt>tr</dt>
+                <dd>-table-
+                        -tr-table cells-/tr-
+                    -/table-
+                </dd>
+            </div>
+            <div>
+                <dt>border-collapse</dt>
+                <dd>border-collapse: type; type can be either separate or collapse</dd>
+
+            </div>
+            <div>
+                <dt>border-spacing</dt>
+                <dd>border-spacing: value;</dd>
+            </div>
+            <div>
+                <dt>rowspan</dt>
+                <dd>
+                    -table-
+                        -tr-
+                            -td rowspan="2"--/td-
+                        -/tr-
+                    -table-
+                </dd>
+            </div>
+            <div>
+                <dt>colspan</dt>
+                <dd>
+                    -table-
+                        -tr-
+                            -td colspan="2"--/td-
+                        -/tr-
+                    -table-
+                </dd>
+            </div>
+            <div>
+                <dt>Caption</dt>
+                <dd>
+                    -caption-conent-/caption-
+                </dd>
+            </div>
+            <div>
+                <dt>caption-side</dt>
+                <dd>caption-side: position;</dd>
+            </div>
+            <div>
+                <dt>thead</dt>
+                <dd>
+                    -table-
+                        -thead-table rows -/thead-
+                    -/table-
+                </dd>
+            </div>
+            <div>
+                <dt>tfoot</dt>
+                <dd>
+                    -table-
+                        -tfoot-table rows -/tfoot-
+                    -/table-
+                </dd>
+            </div>
+            <div>
+                <dt>tbody</dt>
+                <dd>
+                    -table-
+                        -tbody-table rows -/tbody-
+                    -/table-
+                </dd>
+            </div>
+            <div>
+                <dt>id</dt>
+                <dd>#name{attributes}</dd>
+            </div>
+            <div>
+                <dt>class</dt>
+                <dd>.name{attributes}</dd>
+            </div>
+            <div>
+                <dt>colgroup</dt>
+                <dd>
+                    -table-
+                        -colgroup-
+                            columns
+                        -/colgroup-
+                        table rows
+                    -/table-
+                </dd>
+            </div>
+            <div>
+                <dt>vertical-align</dt>
+                <dd>vertical-align:type;</dd>
+            </div>
+            <div>
+                <dt>data-text</dt>
+                <dd>data-text="value"</dd>
+            </div>
+            <div>
+                <dt>data-label</dt>
+                <dd>-td data-label="Date"-April 2, 2017-/td-</dd>
+            </div>
+            <div>
+                <dt>column-count</dt>
+                <dd>column-count: value;</dd>
+            </div>
+            <div>
+                <dt>column-width</dt>
+                <dd>column-width: size;</dd>
+            </div>
+            <div>
+                <dt>orphans</dt>
+                <dd>orphans: value;</dd>
+            </div>
+            <div>
+                
             </div>
         </dl>
     </body>
